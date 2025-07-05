@@ -1,3 +1,6 @@
+#대선 개표 현황 빨리 보기
+
+
 import requests
 def get_tupyo():
     resp = requests.get("https://news.kbs.co.kr/vote/20250603/KBS_SUNGER_DATA.json?d=20250603183720")
